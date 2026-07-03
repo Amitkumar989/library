@@ -2,20 +2,20 @@
 
 /* ─── Custom Theme Tokens ───────────────────────────────────── */
 @theme inline {
-  --color-primary: #2563EB;
-  --color-primary-dark: #1D4ED8;
+  --color-primary: #1E40AF;
+  --color-primary-dark: #1E3A8A;
   --color-primary-light: #3B82F6;
-  --color-accent: #22C55E;
-  --color-accent-dark: #16A34A;
-  --color-dark: #111827;
-  --color-dark-secondary: #1F2937;
-  --color-secondary: #6B7280;
-  --color-secondary-light: #9CA3AF;
+  --color-accent: #059669;
+  --color-accent-dark: #047857;
+  --color-dark: #0F172A;
+  --color-dark-secondary: #1E293B;
+  --color-secondary: #64748B;
+  --color-secondary-light: #94A3B8;
   --color-bg: #FFFFFF;
   --color-bg-light: #F8FAFC;
-  --color-bg-warm: #FFFBF5;
-  --color-border: #E5E7EB;
-  --color-border-light: #F3F4F6;
+  --color-bg-warm: #FFF8F0;
+  --color-border: #E2E8F0;
+  --color-border-light: #F1F5F9;
 
   --font-heading: var(--font-poppins);
   --font-body: var(--font-inter);
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── Custom Scrollbar ──────────────────────────────────────── */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -114,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   50% { transform: translateY(-10px); }
 }
 
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(30, 64, 175, 0.2); }
+  50% { box-shadow: 0 0 20px 4px rgba(30, 64, 175, 0.1); }
+}
+
 .animate-fade-up {
   animation: fade-up 0.6s ease-out forwards;
 }
@@ -137,13 +142,17 @@ h1, h2, h3, h4, h5, h6 {
   animation: float 3s ease-in-out infinite;
 }
 
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
 /* ─── Gradient Overlays ─────────────────────────────────────── */
 .hero-gradient {
   background: linear-gradient(
     to bottom,
-    rgba(17, 24, 39, 0.7) 0%,
-    rgba(17, 24, 39, 0.5) 40%,
-    rgba(17, 24, 39, 0.85) 100%
+    rgba(15, 23, 42, 0.75) 0%,
+    rgba(15, 23, 42, 0.5) 40%,
+    rgba(15, 23, 42, 0.88) 100%
   );
 }
 
@@ -156,15 +165,48 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── Glass Effect ──────────────────────────────────────────── */
 .glass {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .glass-dark {
-  background: rgba(17, 24, 39, 0.8);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ─── Mobile Responsiveness Enhancements ───────────────────── */
+@media (max-width: 639px) {
+  /* Tighter padding on mobile */
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Better touch targets */
+  button, a {
+    min-height: 44px;
+  }
+
+  /* Fluid typography */
+  h1 {
+    font-size: clamp(1.75rem, 6vw, 3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+
+  /* Better card layout on mobile */
+  .masonry-grid {
+    columns: 1;
+  }
+}
+
+/* ─── Smooth hover transitions ─────────────────────────────── */
+* {
+  -webkit-tap-highlight-color: transparent;
 }

@@ -68,10 +68,10 @@ export default function Contact() {
                     Hours
                   </h3>
                   <p className="text-sm text-secondary">
-                    Mon–Fri: {siteConfig.hours.weekdays}
+                    Mon–Sat: {siteConfig.hours.weekdays}
                   </p>
                   <p className="text-sm text-secondary">
-                    Sat–Sun: {siteConfig.hours.weekends}
+                    Sunday: {siteConfig.hours.weekends}
                   </p>
                 </div>
               </div>

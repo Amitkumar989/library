@@ -16,23 +16,28 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "RB Library — Premium Study Space in GTB Nagar, Delhi",
+  title: "RB Library — Your Second Home for Studying | Sagar Pur, Delhi",
   description:
-    "RB Library is a premium reading hall & study library in GTB Nagar, New Delhi. AC, Wi-Fi, power backup, personal lockers. Memberships starting ₹800/month.",
+    "RB Library is a premium study library in Sagar Pur, New Delhi. AC, Wi-Fi, power backup, personal lockers. Ideal for UPSC, SSC CGL, JEE, NEET, CA preparation. Memberships starting ₹500/month.",
   keywords: [
     "library",
     "study space",
     "reading hall",
-    "GTB Nagar",
+    "Sagar Pur",
     "Delhi",
     "UPSC preparation",
+    "SSC CGL",
+    "JEE preparation",
+    "NEET preparation",
     "CA study",
-    "Hudson Lane",
+    "Vashist Park",
+    "Gandhi Market",
+    "Palam",
   ],
   openGraph: {
-    title: "RB Library — Premium Study Space in Delhi",
+    title: "RB Library — Your Second Home for Studying | Sagar Pur, Delhi",
     description:
-      "Air-conditioned, Wi-Fi enabled reading hall with flexible memberships. Located on Hudson Lane, GTB Nagar.",
+      "Air-conditioned, Wi-Fi enabled study library in Sagar Pur with flexible memberships. Perfect for UPSC, SSC, JEE, NEET & CA aspirants.",
     type: "website",
     locale: "en_IN",
   },

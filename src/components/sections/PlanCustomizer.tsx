@@ -312,9 +312,9 @@ export default function PlanCustomizer() {
                             className="w-full px-3 py-2.5 rounded-xl border border-border focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-xs text-dark transition-all bg-white"
                           >
                             <option value="Flexible">Flexible / Not Sure</option>
-                            <option value="Morning Shift (6:00 AM – 2:00 PM)">Morning Shift (6:00 AM – 2:00 PM)</option>
+                            <option value="Morning Shift (7:00 AM – 2:00 PM)">Morning Shift (7:00 AM – 2:00 PM)</option>
                             <option value="Evening Shift (2:00 PM – 10:00 PM)">Evening Shift (2:00 PM – 10:00 PM)</option>
-                            <option value="Full Day Shift (6:00 AM – 11:00 PM)">Full Day Shift (6:00 AM – 11:00 PM)</option>
+                            <option value="Full Day Shift (7:00 AM – 10:00 PM)">Full Day Shift (7:00 AM – 10:00 PM)</option>
                           </select>
                         </div>
 

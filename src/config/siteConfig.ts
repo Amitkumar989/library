@@ -2,9 +2,9 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "RB Library",
-  tagline: "Your Peaceful Study Space in the Heart of Delhi",
+  tagline: "Your Second Home for Studying",
   description:
-    "Premium reading hall & study library in New Delhi. Air-conditioned, Wi-Fi enabled, quiet study environment with flexible membership plans.",
+    "Your neighbourhood study library in Sagar Pur, New Delhi. Air-conditioned, Wi-Fi enabled, distraction-free environment with affordable membership plans for UPSC, SSC, JEE, NEET, CA & more.",
   address: "Wz 61A/20, Vashist Park, Gandhi Market Rd, Block T, Gandhi Market, Sagar Pur, New Delhi, Delhi 110046",
   phone: "+919213503063",
   phone2: "+918750322228",
@@ -19,8 +19,8 @@ export const siteConfig: SiteConfig = {
   heroImage:
     "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFXYzjFwHe6GdWoJxsjOQbtOev0BLiOe7_q-ucvGkTIvBKkclux8ww9VJLn1X1JDdj7jqFoFbJpuvmauqrFuXR-CtMq8Sp_VrATGdick0m7u7-ieNrUQ4K8w6ECaAHSZCt-05u=w1920-h1080-k-no",
   hours: {
-    weekdays: "6:00 AM – 11:00 PM",
-    weekends: "7:00 AM – 10:00 PM",
+    weekdays: "7:00 AM – 10:00 PM",
+    weekends: "8:00 AM – 8:00 PM",
   },
 
   navLinks: [
@@ -89,7 +89,7 @@ export const siteConfig: SiteConfig = {
   membershipPlans: [
     {
       name: "Basic",
-      price: 800,
+      price: 500,
       duration: "month",
       features: [
         "4 Hours Daily Access",
@@ -101,10 +101,8 @@ export const siteConfig: SiteConfig = {
     },
     {
       name: "Standard",
-      price: 1500,
+      price: 800,
       duration: "month",
-      isPopular: true,
-      badge: "Most Popular",
       features: [
         "8 Hours Daily Access",
         "Air Conditioned Hall",
@@ -112,15 +110,16 @@ export const siteConfig: SiteConfig = {
         "Purified Water",
         "Power Backup",
         "Personal Locker",
-        "Reserved Seat",
       ],
     },
     {
       name: "Premium",
-      price: 2500,
+      price: 1200,
       duration: "month",
+      isPopular: true,
+      badge: "Best Value",
       features: [
-        "Full Day Access (6 AM–11 PM)",
+        "Full Day Access (7 AM–10 PM)",
         "Air Conditioned Hall",
         "Wi-Fi Access",
         "Purified Water",
@@ -134,12 +133,12 @@ export const siteConfig: SiteConfig = {
   ],
 
   planCustomizer: {
-    basePrice: 800,
+    basePrice: 500,
     timeSlots: [
       { label: "4 Hours", hours: "4h", priceMultiplier: 1 },
       { label: "6 Hours", hours: "6h", priceMultiplier: 1.4 },
       { label: "8 Hours", hours: "8h", priceMultiplier: 1.8 },
-      { label: "Full Day", hours: "17h", priceMultiplier: 2.8 },
+      { label: "Full Day", hours: "15h", priceMultiplier: 2.4 },
     ],
     durations: [
       { months: 1, label: "1 Month", discount: 0 },
@@ -206,7 +205,7 @@ export const siteConfig: SiteConfig = {
     {
       question: "What are the library timings?",
       answer:
-        "We are open from 6:00 AM to 11:00 PM on weekdays and 7:00 AM to 10:00 PM on weekends. We are open 365 days a year.",
+        "We are open Monday to Saturday from 7:00 AM to 10:00 PM, and Sunday from 8:00 AM to 8:00 PM. We are open 365 days a year.",
     },
     {
       question: "Can I visit before taking a membership?",
@@ -249,25 +248,25 @@ export const siteConfig: SiteConfig = {
     {
       title: "Prime Location",
       description:
-        "Located at Vashist Park, Sagarpur — near Gandhi Market. Easily accessible from Palam and surrounding areas.",
+        "Located at Vashist Park, Sagar Pur — near Gandhi Market. Easily accessible from Palam, Uttam Nagar & surrounding areas.",
       icon: "MapPin",
     },
     {
       title: "Affordable Plans",
       description:
-        "Flexible pricing starting at just ₹800/month. Choose a plan that fits your budget.",
+        "Flexible pricing starting at just ₹500/month. Choose a plan that fits your budget.",
       icon: "IndianRupee",
     },
     {
       title: "Serious Community",
       description:
-        "Join 200+ focused students preparing for UPSC, CA, JEE, NEET, and more.",
+        "Join 200+ focused students preparing for UPSC, SSC CGL, JEE, NEET, CA & more.",
       icon: "Users",
     },
     {
       title: "Extended Hours",
       description:
-        "Open 6 AM to 11 PM daily. Study at your own pace, at your own time.",
+        "Open Mon–Sat 7 AM to 10 PM, Sun 8 AM to 8 PM. Study at your pace.",
       icon: "Clock",
     },
     {

@@ -9,6 +9,21 @@ import Lightbox from "@/components/ui/Lightbox";
 
 const galleryImages = [
   {
+    src: "/images/image.png",
+    alt: "RB Library study space - comfortable seating area",
+    aspect: "4/3",
+  },
+  {
+    src: "/images/image1.png",
+    alt: "RB Library interior - students studying in a focused environment",
+    aspect: "4/3",
+  },
+  {
+    src: "/images/image-copy.png",
+    alt: "RB Library hall - well-lit study desks with partitions",
+    aspect: "3/4",
+  },
+  {
     src: "/images/study-hall-1.png",
     alt: "Students studying in the AC hall with blue chairs",
     aspect: "4/3",
@@ -64,6 +79,7 @@ export default function Gallery() {
                     src={img.src}
                     alt={img.alt}
                     fill
+                    unoptimized
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
