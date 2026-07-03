@@ -89,7 +89,7 @@ export const siteConfig: SiteConfig = {
   membershipPlans: [
     {
       name: "Basic",
-      price: 500,
+      price: 700,
       duration: "month",
       features: [
         "4 Hours Daily Access",
@@ -101,10 +101,10 @@ export const siteConfig: SiteConfig = {
     },
     {
       name: "Standard",
-      price: 800,
+      price: 1000,
       duration: "month",
       features: [
-        "8 Hours Daily Access",
+        "Full Day Access",
         "Air Conditioned Hall",
         "Wi-Fi Access",
         "Purified Water",
@@ -114,7 +114,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       name: "Premium",
-      price: 1200,
+      price: 1500,
       duration: "month",
       isPopular: true,
       badge: "Best Value",
