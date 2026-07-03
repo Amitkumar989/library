@@ -6,7 +6,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 const highlights = [
   { icon: BookOpen, label: "Premium Study Hall" },
-  { icon: Users, label: "200+ Members" },
+  { icon: Users, label: "100+ Members" },
   { icon: Clock, label: "Open 15 Hrs Daily" },
   { icon: Award, label: "4.9★ Rated" },
 ];
@@ -28,23 +28,15 @@ export default function About() {
             />
             <div className="space-y-4 text-secondary leading-relaxed">
               <p>
-                Welcome to <strong className="text-dark">RB Library</strong> — Sagar Pur&apos;s
-                most trusted study space, built by students, for students. Located in the heart of
-                Vashist Park near Gandhi Market, we&apos;re not just a reading hall — we&apos;re
-                a community of serious learners who are chasing big dreams together.
+                <strong className="text-dark">RB Library</strong> — Sagar Pur&apos;s
+                most loved study space. AC, Wi-Fi, power backup, personal lockers &
+                zero distractions. Whether you&apos;re preparing for UPSC, SSC CGL, JEE,
+                NEET, CA, or any competitive exam — this is where toppers study.
               </p>
               <p>
-                Our fully air-conditioned, Wi-Fi-enabled library is designed to help you
-                focus for hours without distractions. Ergonomic seating, power backup,
-                personal lockers, and a strict silence policy — every detail is crafted so
-                you can give your best to your preparation, whether it&apos;s UPSC, SSC CGL,
-                JEE, NEET, CA, or any other competitive exam.
-              </p>
-              <p>
-                Step in once and you&apos;ll feel the difference. The calm environment,
-                the motivated crowd around you, and the affordable plans make RB Library
-                the smartest choice for every student in Sagar Pur, Palam, Uttam Nagar &
-                nearby areas. Come join us — your success story starts here.
+                Walk in once and feel the difference. Affordable plans, a motivated
+                community of 100+ students, and a silent, focused environment that
+                makes you <em>want</em> to study. Your success story starts here.
               </p>
             </div>
 

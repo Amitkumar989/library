@@ -213,11 +213,6 @@ export const siteConfig: SiteConfig = {
         "Absolutely! You are welcome to visit and see our facilities before deciding. Just walk in during operating hours or contact us on WhatsApp to schedule a tour.",
     },
     {
-      question: "Is there a registration fee?",
-      answer:
-        "We charge a one-time registration fee of ₹200 which covers your ID card and initial setup. This is separate from the monthly membership fee.",
-    },
-    {
       question: "Can I change my time slot later?",
       answer:
         "Yes, you can change your time slot at the beginning of your next billing cycle. Just inform the staff or contact us on WhatsApp.",
@@ -260,7 +255,7 @@ export const siteConfig: SiteConfig = {
     {
       title: "Serious Community",
       description:
-        "Join 200+ focused students preparing for UPSC, SSC CGL, JEE, NEET, CA & more.",
+        "Join 100+ focused students preparing for UPSC, SSC CGL, JEE, NEET, CA & more.",
       icon: "Users",
     },
     {
